@@ -32,7 +32,7 @@ public class ArrayGenerator {
     public static void printArrays() {
         int[] sizes = { 10, 100, 1000, 5000, 10000, 30000 };
         for (int i = 0; i < sizes.length; i++) {
-            int lastValue = arrays[i][arrays[i].length - 1]; // Obtener el último valor
+            int lastValue = arrays[i][arrays[i].length - 1];
             System.out.println("Arreglo de tamaño " + sizes[i] + " (último valor: " + lastValue + ")");
         }
     }
